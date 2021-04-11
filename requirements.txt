@@ -1,0 +1,12 @@
+flake8
+
+langid 
+langdetect
+pycountry
+iso-639
+pycld2
+tqdm
+
+sklearn
+torch
+transformers
