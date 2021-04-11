@@ -2,7 +2,7 @@
 Small project to explore language detection techniques
 
 ### Dataset
-Used [Wili2018 dataset](https://arxiv.org/pdf/1801.07779.pdf) with given train/test split
+Used [Wili2018 dataset](https://arxiv.org/pdf/1801.07779.pdf) with given train/test split. Code to read for different models [here](src/data)
 
 ### Approaches report
 |            	| accuracy 	| f1    	| precision 	| recall 	|
@@ -27,6 +27,7 @@ Used [Wili2018 dataset](https://arxiv.org/pdf/1801.07779.pdf) with given train/t
 ---
 3. [RNN approach](notebooks/2.rnn.ipynb)
    * Implemented bidirectional LSTM
+   * Architecture definition [here](src/models/rnn_model.py)
 ---
 4. [Transformers approach](notebooks/3.transformers.ipynb)
    * Used pretrained `distilbert-base-multilingual-cased` and finetuned on trainset
